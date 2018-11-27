@@ -1,0 +1,58 @@
+#cr1,
+#cr2,
+#cr3,
+#cr4 {
+  border: 5px solid rgb(70, 7, 99);
+  border-radius: 2rem;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+#targetnumber {
+  font-family: fantasy;
+  color: rgb(49, 16, 16);
+  font-size: 40px;
+}
+
+#score {
+  font-family: fantasy;
+  color: rgb(49, 16, 16);
+  font-size: 30px;
+}
+
+.balckw {
+  font-family: Black And White Picture;
+  font-size: 17px;
+}
+
+#cr1:hover {
+  margin-top: -5px;
+  border: 2px solid rgb(52, 20, 66);
+}
+
+#cr2:hover {
+  margin-top: -5px;
+  border: 2px solid rgb(52, 20, 66);
+}
+#cr3:hover {
+  margin-top: -5px;
+  border: 2px solid rgb(52, 20, 66);
+}
+#cr4:hover {
+  margin-top: -5px;
+  border: 2px solid rgb(52, 20, 66);
+}
+
+#cr1:active {
+  cursor: grab;
+}
+
+#cr2:active {
+  cursor: grab;
+}
+#cr3:active {
+  cursor: grab;
+}
+#cr4:active {
+  cursor: grab;
+}

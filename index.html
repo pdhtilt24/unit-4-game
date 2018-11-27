@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+    <link
+    rel="stylesheet"
+    href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+  />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link
+      href="https://fonts.googleapis.com/css?family=Black+And+White+Picture|Spicy+Rice|Anton"
+      rel="stylesheet"
+    />
+    <title>CrystalsCollector</title>
+  </head>
+
+  <body style="background-image: url(assets/images/background.jpg)"> 
+    
+    <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="jumbotron jumbotron-fluid" style="background-image: url(assets/images/heart.jpeg)">
+              <h1 class="display-4"style="font-family:anton; color: rgb(96, 27, 131)"> CrystalsCollector!</h1>
+            </div>
+            <br><br>
+          </div>
+        </div>
+
+      <div class="row">
+        <div class="col-md-3" style="background-color:rgb(78, 113, 158); border: 5px solid rgb(70, 7, 99);border-radius: 2rem;">
+          <p>You will be given a random number at the start of the game. <br><br>
+          There are four crystals below. By clicking on a crystal you will add a specific amount of points to your total score. <br><br>
+        You win the game by matching your total score to random number, you lose the game if your total score goes above the random number.<br><br>
+      The value of each crystal is hidden from you until you click on it. <br><br>Each time when the game starts, the game will change the values of each crystal.
+    </p>
+        </div>
+        <div class="col-md-6">
+           <div class="row">
+                <div class="col-md-4" style="margin-left:70px;">
+                    <img id="cr1" src="assets/images/red.jpg" />
+                </div>
+                <div class="col-md-4">
+                    <img id="cr2" src="assets/images/blue.jpg" />
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4" style="margin-left:70px;">
+                    <img id="cr3" src="assets/images/green.jpg" />
+                </div>
+                <div class="col-md-4">
+                    <img id="cr4" src="assets/images/purple.jpg" />
+                </div>
+            </div>
+
+        </div>
+        <div class="col-md-3">
+          <div class="row" style="background-color:rgb(217, 236, 42); border: 3px solid rgb(70, 7, 99);border-radius: 5px; height: 100px;text-align: center; line-height: 80px;">
+            <p id="targetnumber"></p>
+          </div>
+          <div class="row" >
+            <div class="col-md-7">
+              <div class="row" style="background-color:rgb(217, 144, 231); border: 3px solid rgb(70, 7, 99);border-radius: 5px; height: 40px;text-align: center; margin-top: 40px; line-height: 35px">
+                <p class="balckw">Your total score is:</p>
+              </div>
+              <div class="row" style="background-color:rgb(217, 144, 231); border: 3px solid rgb(70, 7, 99);border-radius: 5px; height: 100px;text-align: center; margin-top: 20px">
+                <p id="score"></p>
+              </div>
+            </div>
+            <div class="col-md-4" style="background-color:rgb(214, 163, 200); border: 3px solid rgb(70, 7, 99);border-radius: 5px;text-align: center; margin-top: 40px; margin-left: 15px; height: 160px;" >
+              <p class="balckw">Wins:</p>
+              <p id="win"><br>0</p>
+              <p class="balckw">Losses:</p>
+              <p id="lose"><br>0</p>
+
+            </div>
+
+          </div>
+         
+        </div>
+      
+    </div>
+
+
+
+    <script src="assets/javascript/game.js"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+      integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+      integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  </body>
+  
+
+  </html>
